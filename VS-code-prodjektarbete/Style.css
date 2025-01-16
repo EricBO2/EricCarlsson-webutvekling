@@ -1,0 +1,107 @@
+header,footer{
+    background: aqua;   
+}
+header{
+    overflow: hidden;
+    height: 75px;
+}
+footer{
+    display: flex;
+    height: auto;
+    padding: 1%;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.logo{
+    display: flex;
+    border-color: black;
+    border-style: solid;
+    border-width: 10%;
+    height: inherit;
+    float:left;
+}
+.header-menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: inherit;
+}
+main{
+    background-image: url(bilder/codebild.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 80%;
+    width: 100%;
+
+}
+.Start-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Om-mig-main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Teknik-main{
+    display: flex;
+    flex-direction: column;
+}
+.Teknik-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Teknik-list-eliment{
+    width: 700px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.Rubric-box{
+    display: flex;
+    background: pink;
+    color:black;
+    flex-wrap: wrap;
+    border-color: black;
+    border-style: solid;
+    border-width: 10%;
+}
+.Text-box{
+    display: flex;
+    background: white;
+    color:black;
+    flex-wrap: wrap;
+    border-color: black;
+    border-style: solid;
+    border-width: 10%;
+}
+.biger-body{
+    height: 900px;
+}
+.Start-box{
+    text-align: center;
+    width: 60%;
+    font-size: 40px;
+}
+.Teknik-box{
+    width:50%;
+    font-size: 30px;
+}
+.Om-mig-box{
+    font-size: 40px;
+}
+.Display-off{
+    display: none;
+}
+.Center-column{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

@@ -9,24 +9,95 @@
 </head>
 
 <body>
-    <header>
+    <header class="aqua-background">
         <article class="logo">
             <img src="bilder/loga.png" alt="blå cirkel med röd och svart prik i cirkelen" height="100%">
         </article>
-        <article class="header-menu">
+        <nav class="header-menu">
             <a href="Start-sidan.html">Start sidan</a>
             <a href="Teknik.html">Teknik</a>
             <a href="Om-mig.html">Om mig</a>
             <a href="Kontakt.html">Kontakt</a>
-        </article>
+        </nav>
 
     </header>
 
-    <main>
-        <p>hej</p>
+    <main id="Kontakt-main" class=" img-background">
+
+        <p class="Rubric-box Start-box">
+            För att kontakta mej
+        </p>
+
+        <ul class="Text-box Kontakt-box">
+            <h2>Kontakt formulär</h2>
+            <li>
+                <label for="name">Namn:</label>
+                <input type="text" id="name" name="name" required>
+            </li>
+            <li>
+                <label for="e-post">E-post:</label>
+                <input type="email" id="e-post" name="e-post" required>
+            </li>
+            <li>
+                <p>Vad är andleningen för att kontakta oss</p>
+                <input type="radio" id="sidaProblem" name="sidoProblem" value="Har problem med sidan">
+                <label for="sidaProblem">Har problem med sidan</label>
+
+                <input type="radio" id="produktProblem" name="produktProblem" value="Har problem med produkten">
+                <label for="produktProblem">Har problem med produkten</label>
+
+                <input type="radio" id="annat" name="annat" value="Annat">
+                <label for="annat">Annat</label>
+            </li>
+            <li>
+                <label for="message">Meddelande:</label>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea>
+            </li>
+            <li>
+                <p>Genom att kryssa i den här går du med på att inte stäma mej</p>
+                <input type="checkbox" id="nondisclosure" name="nondisclosure" value="går med" required>
+                <label for="nondisclosure">Jag går med på villkoren</label>
+            </li>
+            <li>
+                <input type="submit" value="Skicka">
+            </li>
+        </ul>
+
+        <ul class="Text-box Kontakt-box">
+            <li>
+                <h3>telefonnummer : </h3>
+                <a href="tel:+0738330508">0738330508</a>
+            </li>
+            <li>
+                <h3>e-postadress : </h3>
+                <ul>
+                    <li>
+                        <a href="mailto:eric_nami@hotmail.com">eric_nami@hotmail.com</a>
+                    </li>
+                    <li>
+                        <a href="mailto:eric.john.carlsson@gmail.com">eric.john.carlsson@gmail.com</a>
+                    </li>
+                    <li>
+                        <a href="mailto:eric.carlsson@stud.sti.se">eric.carlsson@stud.sti.se</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h3>Git hub</h3>
+                <ul>
+                    <li>
+                        <a href="https://github.com/EricBO2">EricBO2</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/EricBO2/EricCarlsson-webutvekling">Repositories</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
     </main>
 
-    <footer>
+    <footer class="aqua-background">
         <article>
             <h3>telefonnummer : </h3>
             <a href="tel:+0738330508">0738330508</a>

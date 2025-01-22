@@ -9,23 +9,27 @@
 </head>
 
 <body>
-    <header>
+    <header class="aqua-background">
         <article class="logo">
             <img src="bilder/loga.png" alt="blå cirkel med röd och svart prik i cirkelen" height="100%">
         </article>
-        <article class="header-menu">
+        <nav class="header-menu">
             <a href="Start-sidan.html">Start sidan</a>
             <a href="Teknik.html">Teknik</a>
             <a href="Om-mig.html">Om mig</a>
             <a href="Kontakt.html">Kontakt</a>
-        </article>
+        </nav>
 
     </header>
 
-    <main class="Teknik-main">
+    <main id="Teknik-main" class="img-background">
+        <article>
+            <button id="Swicth-color">Switch background color</button>
+        </article>
         <section class="Teknik-list">
+
             <article class="Teknik-list-eliment">
-                <img src="bilder/C-sharp.png" alt="loga för C sharp" height="300" width="300">
+                <img src="bilder/C-sharp.png" alt="loga för C sharp" class="Teknik-img">
                 <article>
                     <article>
                         <h2 class="Rubric-box Teknik-box">C#</h2>
@@ -38,7 +42,7 @@
                 </article>
             </article>
             <article class="Teknik-list-eliment">
-                <img src="bilder/C++.png" alt="loga för C++" height="300" width="300">
+                <img src="bilder/C++.png" alt="loga för C++" class="Teknik-img">
                 <article>
                     <article>
                         <h2 class="Rubric-box Teknik-box">C++</h2>
@@ -51,7 +55,7 @@
                 </article>
             </article>
             <article class="Teknik-list-eliment">
-                <img src="bilder/java-logo.png" alt="loga för Java" height="300" width="300">
+                <img src="bilder/java-logo.png" alt="loga för Java" class="Teknik-img">
                 <article>
                     <article>
                         <h2 class="Rubric-box Teknik-box">Java</h2>
@@ -64,7 +68,7 @@
                 </article>
             </article>
             <article class="Teknik-list-eliment">
-                <img src="bilder/intellij.png" alt="loga för intellij" height="300" width="300">
+                <img src="bilder/intellij.png" alt="loga för intellij" class="Teknik-img">
                 <article>
                     <article>
                         <h2 class="Rubric-box Teknik-box">Lansers (eller vad det kalas)</h2>
@@ -77,7 +81,7 @@
                 </article>
             </article>
             <article class="Teknik-list-eliment">
-                <img src="bilder/sql.png" alt="loga för sql" height="300" width="300">
+                <img src="bilder/sql.png" alt="loga för sql" class="Teknik-img">
                 <article>
                     <article>
                         <h2 class="Rubric-box Teknik-box">sql</h2>
@@ -94,7 +98,7 @@
             <article>
                 <button id="Show-disclaimer">Show-disclaimer</button>
             </article>
-            <article>
+            <article class="Teknik-box">
                 <p id="Disclaimer" class="Text-box Display-off">
                     Disclaimer: Jag är inte bra på att skriva förklaringar så jag höll det kort jag hoppas att det är
                     okej
@@ -106,7 +110,7 @@
 
     <script src="./script.js"></script>
 
-    <footer>
+    <footer class="aqua-background">
         <article>
             <h3>telefonnummer : </h3>
             <a href="tel:+0738330508">0738330508</a>

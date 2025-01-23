@@ -25,7 +25,7 @@ body {
     display: flex;
     border-color: black;
     border-style: solid;
-    border-width: 10%;
+    border-width: 10px;
     height: inherit;
     float: left;
 }
@@ -137,7 +137,7 @@ body {
     flex-wrap: wrap;
     border-color: black;
     border-style: solid;
-    border-width: 10%;
+    border-width: 10px;
 }
 
 .Text-box {
@@ -147,7 +147,7 @@ body {
     flex-wrap: wrap;
     border-color: black;
     border-style: solid;
-    border-width: 10%;
+    border-width: 10px;
 }
 
 .biger-body {

@@ -59,13 +59,28 @@ body {
         font-size: 20px;
     }
 
-    .Teknik-img{
+    .Teknik-img {
         height: 150px;
         width: 150px;
     }
+
+    .Teknik-box {
+        width: 90%;
+        font-size: 15px;
+    }
+    .Om-mig-box {
+        font-size: 20px;
+    }
+    #Om-mig-main {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
 }
 
-@media (min-width: 500px) {
+@media (min-width: 501px) {
     main {
         width: 100%;
         padding-top: 10%;
@@ -87,9 +102,24 @@ body {
         font-size: 20px;
     }
 
-    .Teknik-img{
+    .Teknik-img {
         height: 300px;
         width: 300px;
+    }
+
+    .Teknik-box {
+        width: 90%;
+        font-size: 30px;
+    }
+
+    .Om-mig-box {
+        font-size: 40px;
+    }
+    #Om-mig-main {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: nowrap;
     }
 }
 
@@ -112,7 +142,7 @@ body {
     flex-direction: column;
 }
 
-#Kontakt-main{
+#Kontakt-main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -154,31 +184,23 @@ body {
     height: 900px;
 }
 
-.Teknik-box {
-    width: 90%;
-    font-size: 30px;
-}
-
-.Om-mig-box {
-    font-size: 40px;
-}
-
 .Display-off {
     display: none;
 }
 
-.img-background{
+.img-background {
     background-image: url(bilder/codebild.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-attachment: fixed;
-        background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
-.black-background{
+.black-background {
     background-image: none;
     background: black;
 }
+
 .Center-column {
     display: flex;
     align-items: center;

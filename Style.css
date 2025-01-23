@@ -1,0 +1,186 @@
+header,
+footer {
+    background: aqua;
+}
+
+header {
+    overflow: hidden;
+    height: 75px;
+}
+
+footer {
+    display: flex;
+    height: auto;
+    padding: 1%;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: flex;
+    border-color: black;
+    border-style: solid;
+    border-width: 10%;
+    height: inherit;
+    float: left;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: inherit;
+}
+
+@media(max-width: 500px) {
+    main {
+        width: 100%;
+        padding-top: 30%;
+        padding-bottom: 30%;
+    }
+
+    .Start-box {
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .Kontakt-box {
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .Teknik-img{
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@media (min-width: 500px) {
+    main {
+        width: 100%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .Start-box {
+        justify-content: center;
+        text-align: center;
+        width: 60%;
+        font-size: 40px;
+    }
+
+    .Kontakt-box {
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 80%;
+        font-size: 20px;
+    }
+
+    .Teknik-img{
+        height: 300px;
+        width: 300px;
+    }
+}
+
+#Start-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Om-mig-main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+#Teknik-main {
+    display: flex;
+    flex-direction: column;
+}
+
+#Konta-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Teknik-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Teknik-list-eliment {
+    width: 500px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.Rubric-box {
+    display: flex;
+    background: pink;
+    color: black;
+    flex-wrap: wrap;
+    border-color: black;
+    border-style: solid;
+    border-width: 10%;
+}
+
+.Text-box {
+    display: flex;
+    background: white;
+    color: black;
+    flex-wrap: wrap;
+    border-color: black;
+    border-style: solid;
+    border-width: 10%;
+}
+
+.biger-body {
+    height: 900px;
+}
+
+.Teknik-box {
+    width: 90%;
+    font-size: 30px;
+}
+
+.Om-mig-box {
+    font-size: 40px;
+}
+
+.Display-off {
+    display: none;
+}
+
+.img-background{
+    background-image: url(bilder/codebild.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+}
+
+.black-background{
+    background-image: none;
+    background: black;
+}
+.Center-column {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
